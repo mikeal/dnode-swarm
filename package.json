@@ -1,7 +1,7 @@
 {
   "name": "dnode-swarm",
   "version": "0.1.0",
-  "description": "",
+  "description": "Peer swarm for dnode using a dht.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,8 +11,6 @@
   "license": "Apache-2.0",
   "dependencies": {
     "bittorrent-dht": "^7.2.2",
-    "dnode": "^1.2.2",
-    "network": "^0.2.1",
     "random-port": "^0.1.0",
     "upnode": "^0.5.0"
   }
