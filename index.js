@@ -50,7 +50,6 @@ function createSwarm (opts, cb) {
   server._serviceId = crypto.randomBytes(10).toString()
 
   dht.on('peer', function (peer, infoHash, from) {
-    peer.host = 'localhost'
     var hostname = peer.host+':'+peer.port
     if (!clients[hostname]) {
       console.log(peer.host, peer.port)
