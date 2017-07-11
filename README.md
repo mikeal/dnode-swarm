@@ -1,5 +1,7 @@
 # dnode swarm
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mikeal/dnode-swarm.svg)](https://greenkeeper.io/)
+
 This library implements a swarm of remote rpc peers.
 
 It uses:
